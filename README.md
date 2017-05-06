@@ -1,7 +1,7 @@
 # imgWaterfall
 
 
-##### 使用方法：
+#### 引入jquery：
 
 引入jquery，及waterfall
 ```
@@ -9,15 +9,24 @@
 <script src='waterfall.js'></script>
 ```
 
-##### html结构：
+#### html结构：
 ```
 <div class="box">
 	<img src="src" alt="" class="img">
 	<p class="inf">this is inf</p>
 </div>
+<div class="box">
+	<img src="src" alt="" class="img">
+	<p class="inf">this is inf</p>
+</div>
+<div class="box">
+	<img src="src" alt="" class="img">
+	<p class="inf">this is inf</p>
+</div>
+<!--可以多添加一些box-->
 ```
 
-##### 使用方法:
+#### 使用方法:
 ```
 <script>
 	$(function(){
@@ -28,4 +37,7 @@
 </script>
 ```
 
-传入的配置参数目前只有一个，用于配置图片宽度
+传入的配置参数目前只有一个，用于配置图片宽度。
+
+##### 演示
+请clone下来打开demo目录下的index.html文件查看演示
