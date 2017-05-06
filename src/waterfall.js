@@ -7,12 +7,12 @@
 	$.fn.waterfall = function(options){
 		// console.log('adsf')
 		var settings = $.extend({
-				imgWidth:190,
+				imgWidth:150,
 			},options);
 
 		// 设置图片宽度：
 		var $box = this;
-		$box.find('img').attr('width',settings.imgWidth);
+		$box.find('img').css('width',settings.imgWidth);
 
 		var boxOuterWidth = $box.eq(0).outerWidth(true);
 		//设置整体居中
